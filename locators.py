@@ -1,9 +1,4 @@
 class TestDescriptionOfElements:
-
-    url_register = 'https://stellarburgers.education-services.ru/register'
-    url_login = 'https://stellarburgers.education-services.ru/login'
-    url_main = 'https://stellarburgers.education-services.ru/'
-
 #Шапка
     # Конструктор
     button_header_constructor_selector = '.AppHeader_header__link__3D_hX'
@@ -14,8 +9,8 @@ class TestDescriptionOfElements:
 
 #Страница регистрации
     # Поля для регистрации
-    name_for_registration_path = './/fieldset[1]/div/div/input'
-    login_for_registration_path = './/fieldset[2]/div/div/input'
+    name_for_registration_path = './/label[text() = "Имя"]/following-sibling::input'
+    login_for_registration_path = './/label[text() = "Email"]/following-sibling::input'
     password_for_registration_path = './/input[@name="Пароль"]'
     # Кнопка «Зарегистрироваться»
     button_register_path = './/button[text()="Зарегистрироваться"]'
