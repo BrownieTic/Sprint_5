@@ -21,6 +21,8 @@ class TestDescriptionOfElements:
 #Главная страница
     # Кнопка «Войти в аккаунт» на главной
     button_input_main_page_selector = '.button_button__33qZ0.button_button_type_primary__1O7Bx.button_button_size_large__G21Vg'
+    # Кнопка Оформить заказ
+    button_order_path = './/button[text()="Оформить заказ"]'
     # Раздел Булки
     button_buns_main_page_path = './/span[text()="Булки"]/parent::div'
     section_buns_main_page_path = './/h2[text()="Булки"]'
